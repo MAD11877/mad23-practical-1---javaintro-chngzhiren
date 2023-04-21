@@ -28,15 +28,21 @@ public class Question5
      * Hint: Use a loop to get input. Use another 2 loops to find the mode
      */
      
-    Scanner in = new Scanner(System.in);
-    List numbers = new ArrayList();
-    System.out.println("Please enter how many times you wish to enter a number: ");
-    loop = in.nextInt();
-    for (int i=0;i<loop;i++){
-      System.out.println("Please enter a number: ");
-      number = in.nextInt();
-      numbers.add(number);
+    int n,maxCount = 0, mode = 0, count = 0;
+    int numbers[] = {1,2,2,3,4};
+    for (int i=0; i < numbers.length; i++){
+      count = 0;
+      for (int j = 0; j < numbers.length; j++){
+        if (numbers[i] == numbers[j]{
+          count++;
+        }
+      }
+      if (count > maxCount){
+        mode = numbers[i];
+        maxCount = count;
+      }
     }
-    /*TO DO --> figure out a way to find mode in an array list*/
+    
+    System.out.println("The mode is: " +mode);
   }
 }
