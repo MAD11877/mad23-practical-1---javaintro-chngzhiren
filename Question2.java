@@ -10,7 +10,9 @@ public class Question2
      * Hint: in.nextDouble() to read double
      */
      
-    Scanner in = new Scanner(System.in);
-    double height = in.nextDouble();
+    double height = 1.7;
+    int weight = 58;
+    double BMI = weight / (height * height);
+      System.out.print(BMI);
   }
 }
