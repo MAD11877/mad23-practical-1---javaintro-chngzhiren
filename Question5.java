@@ -33,7 +33,7 @@ public class Question5
     for (int i=0; i < numbers.length; i++){
       count = 0;
       for (int j = 0; j < numbers.length; j++){
-        if (numbers[i] == numbers[j]{
+        if (numbers[i] == numbers[j]){
           count++;
         }
       }
