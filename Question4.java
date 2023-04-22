@@ -17,10 +17,8 @@ public class Question4
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
      
-    for (int 1=0;i<5;i++)
-    {
-      for (int j=0;j<=i;j++)
-      {
+    for (int 1=0;i<5;i++){
+      for (int j=0;j<=i;j++){
         System.out.println("* ");
       }
       System.out.println();
